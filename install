@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Title		: CPU-G INSTALLER
+# Authors	: Abdul Royyaq
+# Tujuan code ini dibuat adalah untuk memudahkan penginstallan CPU-G di linux
+# Code ini saya buat atas pengalaman saya sendiri, Dimana saya kesulitan untuk menginstall source code CPU-G
+
+echo "CPU-G INSTALLER"
+echo
+echo "Installing CPU-G"
+echo "Please wait!..."
+sleep 0.5
+echo
+echo "Please enter you password, to continue process!"
+sleep 0.3
+echo
+sudo cp -R ~/cpu-g/file/cpu-g/ /opt/
+sudo cp -R ~/cpu-g/file/CPU-G.desktop /usr/share/applications/
+echo
+echo "Successful installation!"
+echo
+echo "Thankyou for using CPU-G installer"
+echo "Goodbye"
+echo "Happy nice day!"
